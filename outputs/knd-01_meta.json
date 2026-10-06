@@ -1,0 +1,9 @@
+{
+  "sku": "KND-01",
+  "generator": "stub",
+  "format": "png",
+  "image_file": "outputs/knd-01_stub.png",
+  "prompt_file": "prompts/gen/kiondo_lifestyle_v1.txt",
+  "prompt_sha256": "77c4817e24bbb3d4b25163d03402d7a90522d36c10f18c3fb60ad1284bbc8019",
+  "not_a_photo_of_the_sku": true
+}

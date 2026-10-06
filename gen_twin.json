@@ -1,0 +1,15 @@
+{
+  "text_to_image": {
+    "managed": "OpenAI DALL-E (Images API)",
+    "oss": "Stable Diffusion via Diffusers or a hosted endpoint"
+  },
+  "provenance": {
+    "managed": "store request id + prompt hash",
+    "oss": "store checkpoint id + revision + prompt hash"
+  },
+  "rules": [
+    "Generated images never enter images/ or the reference set",
+    "Every output ships with *_meta.json declaring not_a_photo_of_the_sku",
+    "Cache renders by prompt hash; never regenerate per page view"
+  ]
+}

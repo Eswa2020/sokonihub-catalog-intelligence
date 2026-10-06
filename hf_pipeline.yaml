@@ -1,0 +1,7 @@
+# Intended live encoder. Scores in mismatch_report.json are NOT produced by this
+# model yet; encoder_pin.json (lab-bow-v1) names what actually scored the catalog.
+# Weights stay on the Hugging Face Hub and are never committed to git.
+task: feature-extraction
+model: openai/clip-vit-base-patch32
+revision: "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+device: cpu
