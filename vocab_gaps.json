@@ -26,5 +26,29 @@
   {
     "sku": "LSO-02",
     "token": "print"
+  },
+  {
+    "sku": "MKB-03",
+    "token": "mkoba"
+  },
+  {
+    "sku": "MKB-03",
+    "token": "wa"
+  },
+  {
+    "sku": "MKB-03",
+    "token": "ukili"
+  },
+  {
+    "sku": "MKB-03",
+    "token": "rangi"
+  },
+  {
+    "sku": "MKB-03",
+    "token": "ya"
+  },
+  {
+    "sku": "MKB-03",
+    "token": "bluu"
   }
 ]

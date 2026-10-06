@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-REQUIRED = ["sku", "score", "flag", "seller_message"]
+REQUIRED = ["sku", "score", "flag", "seller_message", "needs_privacy_review"]
 MIN_FLAGGED_LEN = 20
 BANNED = ["verified", "authentic"]
 

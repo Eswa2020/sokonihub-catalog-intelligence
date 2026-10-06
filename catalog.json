@@ -28,7 +28,15 @@
     "title": "Cotton leso, red black print",
     "description": "Market leso, Mombasa seller.",
     "image": "images/lso-02.jpg",
-    "image_tags": ["leso", "cloth", "red"],
+    "image_tags": ["leso", "cloth", "red", "person"],
     "category": "textiles"
+  },
+  {
+    "sku": "MKB-03",
+    "title": "Mkoba wa ukili, rangi ya bluu",
+    "description": "Woven palm-leaf bag, Kiswahili listing.",
+    "image": "images/mkb-03.jpg",
+    "image_tags": ["bag", "woven", "navy"],
+    "category": "bags"
   }
 ]
