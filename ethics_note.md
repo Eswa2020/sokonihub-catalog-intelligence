@@ -40,3 +40,20 @@ stay out of logs and public outputs.
 ## Limits
 Five listings, a tag-based stand-in encoder, and proxy relevance labels for search. These
 results show the controls work; they do not measure accuracy or fairness at marketplace scale.
+
+
+## Manager summary
+Main risks: correct listings written in Kiswahili or Sheng can be flagged because the encoder
+does not know their words (MKB-03); photos of people carry personal data; a generated
+campaign image could be mistaken for a real product photo; and five listings are too few to
+judge accuracy. Mitigations: every flag goes to a person rather than an automatic action,
+rates are reported per category with n, person/face/child photos are routed to privacy review,
+generated images are labelled and kept out of the reference set, and every model and prompt is
+pinned so results can be reproduced. We will not claim the system is bias-free, that it is
+accurate at marketplace scale, that a live CLIP model produced these scores, or that a
+generated image shows a real product.
+
+## Transfer
+The same join, pins, and review path can later check clinic posters and leaflet photos for the
+AfyaPlus health service. That work will use its own fixtures: no patient images or triage
+records enter this catalog, and no marketplace listings enter triage logs.
