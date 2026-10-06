@@ -1,0 +1,9 @@
+# Core: the scoring path itself uses only the standard library
+pyyaml>=6.0
+python-dotenv>=1.0
+pytest>=8.0
+
+# Optional: live Hugging Face encoder and image rendering
+# pillow
+# transformers
+# torch  # CPU wheel: pip install torch --index-url https://download.pytorch.org/whl/cpu
