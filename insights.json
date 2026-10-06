@@ -1,0 +1,30 @@
+[
+  {
+    "sku": "KND-01",
+    "score": 1.0,
+    "flag": false,
+    "seller_message": "Photo and title look aligned.",
+    "transcript": "Navy sisal kiondo, handmade."
+  },
+  {
+    "sku": "NK-99",
+    "score": 0.0,
+    "flag": true,
+    "seller_message": "The listing photo does not appear to match the title. Please review the photo or update the title before the listing goes live.",
+    "transcript": ""
+  },
+  {
+    "sku": "BAG-MID",
+    "score": 0.5,
+    "flag": false,
+    "seller_message": "Photo and title look aligned.",
+    "transcript": ""
+  },
+  {
+    "sku": "LSO-02",
+    "score": 0.8165,
+    "flag": false,
+    "seller_message": "Photo and title look aligned.",
+    "transcript": ""
+  }
+]

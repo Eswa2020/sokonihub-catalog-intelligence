@@ -1,0 +1,22 @@
+[
+  {
+    "sku": "KND-01",
+    "score": 1.0,
+    "flag": false
+  },
+  {
+    "sku": "NK-99",
+    "score": 0.0,
+    "flag": true
+  },
+  {
+    "sku": "BAG-MID",
+    "score": 0.5,
+    "flag": false
+  },
+  {
+    "sku": "LSO-02",
+    "score": 0.8165,
+    "flag": false
+  }
+]

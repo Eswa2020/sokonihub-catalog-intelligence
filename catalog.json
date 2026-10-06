@@ -1,0 +1,34 @@
+[
+  {
+    "sku": "KND-01",
+    "title": "Sisal kiondo bag, navy",
+    "description": "Handmade kiondo.",
+    "image": "images/knd-01.jpg",
+    "image_tags": ["kiondo", "bag", "sisal", "navy"],
+    "category": "bags"
+  },
+  {
+    "sku": "NK-99",
+    "title": "Nike Air Force 1 white",
+    "description": "Sneakers, size mixed.",
+    "image": "images/nk-99.jpg",
+    "image_tags": ["bag", "sisal", "woven"],
+    "category": "shoes"
+  },
+  {
+    "sku": "BAG-MID",
+    "title": "Navy tote bag",
+    "description": "Cotton tote, single handle.",
+    "image": "images/bag-mid.jpg",
+    "image_tags": ["bag", "cloth"],
+    "category": "bags"
+  },
+  {
+    "sku": "LSO-02",
+    "title": "Cotton leso, red black print",
+    "description": "Market leso, Mombasa seller.",
+    "image": "images/lso-02.jpg",
+    "image_tags": ["leso", "cloth", "red"],
+    "category": "textiles"
+  }
+]
