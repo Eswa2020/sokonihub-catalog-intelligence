@@ -1,0 +1,22 @@
+{
+  "bags": {
+    "n": 3,
+    "n_flagged": 1,
+    "flag_rate": 0.3333
+  },
+  "shoes": {
+    "n": 1,
+    "n_flagged": 1,
+    "flag_rate": 1.0
+  },
+  "textiles": {
+    "n": 1,
+    "n_flagged": 0,
+    "flag_rate": 0.0
+  },
+  "overall": {
+    "n": 5,
+    "n_flagged": 2,
+    "flag_rate": 0.4
+  }
+}

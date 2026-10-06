@@ -1,0 +1,54 @@
+[
+  {
+    "sku": "NK-99",
+    "token": "air"
+  },
+  {
+    "sku": "NK-99",
+    "token": "force"
+  },
+  {
+    "sku": "NK-99",
+    "token": "1"
+  },
+  {
+    "sku": "BAG-MID",
+    "token": "tote"
+  },
+  {
+    "sku": "LSO-02",
+    "token": "cotton"
+  },
+  {
+    "sku": "LSO-02",
+    "token": "black"
+  },
+  {
+    "sku": "LSO-02",
+    "token": "print"
+  },
+  {
+    "sku": "MKB-03",
+    "token": "mkoba"
+  },
+  {
+    "sku": "MKB-03",
+    "token": "wa"
+  },
+  {
+    "sku": "MKB-03",
+    "token": "ukili"
+  },
+  {
+    "sku": "MKB-03",
+    "token": "rangi"
+  },
+  {
+    "sku": "MKB-03",
+    "token": "ya"
+  },
+  {
+    "sku": "MKB-03",
+    "token": "bluu"
+  }
+]

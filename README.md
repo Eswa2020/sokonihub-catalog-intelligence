@@ -30,7 +30,24 @@ python insights.py && python check_insights.py
 - **Swappable encoder.** `image_tags` stand in for an image encoder. A pinned CLIP model can replace them without changing the scoring contract.
 - **Honest pinning.** `encoder_pin.json` names what actually produced the scores (`lab-bow-v1`), not a model that was never loaded.
 - **Audio as a field.** Seller voice notes attach as a `transcript` on the same SKU. Transcripts stay out of logs.
+## Analytics and responsible deployment
 
+| Artifact | Purpose | Check |
+|----------|---------|-------|
+| `analytics.py` → `rates.json` | Flag rate per category, always with n | `check_analytics.py` |
+| `vocab_gaps.py` → `vocab_gaps.json` | Title tokens the encoder cannot read (coverage/bias input) | — |
+| `search.py` | Query-to-listing ranking on image evidence, recall@k | `check_analytics.py` |
+| `privacy_flag.py` | Routes person/face/child photos to privacy review | via `check_insights.py` |
+| `ethics_note.md` | Who is in the photos, whose language, generated pixels, review path | `check_ethics.py` |
+
+On the five-listing fixture, overall flag rate is 0.4 (2 of 5). One of the two flags (MKB-03)
+is a false positive caused by an English-only vocabulary reading a Kiswahili title: a
+documented coverage bias, routed to human review rather than hidden.
+
+```bash
+python analytics.py && python vocab_gaps.py && python search.py kiondo && python check_analytics.py
+python privacy_flag.py && python check_ethics.py
+```
 ## Limitations
 
 The bag-of-words vocabulary is small; out-of-vocabulary words (including Sheng and Kiswahili terms) are dropped silently, which can understate agreement.

@@ -46,9 +46,23 @@
     "image_tags": [
       "leso",
       "cloth",
-      "red"
+      "red",
+      "person"
     ],
     "category": "textiles",
+    "transcript": ""
+  },
+  {
+    "sku": "MKB-03",
+    "title": "Mkoba wa ukili, rangi ya bluu",
+    "description": "Woven palm-leaf bag, Kiswahili listing.",
+    "image": "images/mkb-03.jpg",
+    "image_tags": [
+      "bag",
+      "woven",
+      "navy"
+    ],
+    "category": "bags",
     "transcript": ""
   }
 ]
