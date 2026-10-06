@@ -1,0 +1,4 @@
+OK   KND-01: score=1.0 flag=False expected=False
+OK   NK-99: score=0.0 flag=True expected=True
+OK   LSO-02: score=0.8165 flag=False expected=False
+Reference set OK (3 listings)

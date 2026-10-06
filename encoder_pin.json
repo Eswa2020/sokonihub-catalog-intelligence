@@ -1,0 +1,7 @@
+{
+  "encoder_id": "lab-bow-v1",
+  "source": "local",
+  "revision": "sidecar-tags",
+  "honesty": "sidecar-tags",
+  "notes": "Scores in mismatch_report.json come from image_tags bag-of-words over VOCAB in mismatch.py, not a Hugging Face download."
+}
